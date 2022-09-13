@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { pages } from '../pages';
+import { pages } from '../util/pages';
+
 
 function Navbar() {
   return (

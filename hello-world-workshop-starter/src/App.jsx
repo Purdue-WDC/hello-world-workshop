@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import { pages } from './pages';
+import { pages } from './util/pages';
 
 function App() {
   return (
@@ -27,7 +27,7 @@ function App() {
         </div>
       </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
