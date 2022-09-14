@@ -37,6 +37,7 @@ function Navbar() {
               textDecoration: 'none',
               marginLeft: '20px'
             }}
+            key={page.name}
           >
             {page.name}
           </Link>
